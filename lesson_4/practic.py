@@ -36,3 +36,32 @@ first = (1, 2, 3, 4)
 second = (5, 6, 7, 8)
 merge = first+second
 print(merge)
+
+
+# Словники
+# Task 1
+
+football_dict = {'name': 'Leo Messi', 'age': 38,
+                 'sport': 'Football', 'club': 'Barcelona'}
+print(football_dict)
+
+# Task 2
+
+books = {'Мастер и Маргарита': 1940, 'Маленький принц': 1943}
+books.update({'Пятнадцатилетний капитан': 1878})
+print(books)
+
+#  Task 3
+
+capitals = {
+    'Франция': 'Париж',
+    'Іспанія': 'Мадрид',
+    'Польща': 'Варшава',
+    'США': 'Вашингтон',
+}
+enter = str(input('Введіть назву країни для отримання назви її столиці: '))
+for i in capitals:
+    if i == enter:
+        print(capitals[i])
+    else:
+        print("Такої країни у нашому списку не знайдено.")
