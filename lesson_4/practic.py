@@ -22,3 +22,17 @@ lis_3 = [3, 5, 7, 8, 2, 11]
 for i in range(len(lis_3)):
     lis_3[i] *= 2
 print(lis_3)
+
+# Кортежі
+# Task 1
+
+my_tuple = ('яблуко', 'банан', 'апельсин')
+for i in my_tuple:
+    print(i)
+
+# Task 2
+
+first = (1, 2, 3, 4)
+second = (5, 6, 7, 8)
+merge = first+second
+print(merge)
