@@ -12,7 +12,8 @@ class Animal:
         print(f'{self.name} буде видавати звук {self.sound}')
 
 
-dog = Animal("Pluto", "Dog", 5, "Woof!")
+a = str(input('Name of animal: '))
+dog = Animal(a, "Dog", 5, "Woof!")
 dog.make_sound()
 
 # Робота з обʼєктами
